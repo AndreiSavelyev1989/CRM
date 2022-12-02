@@ -1,0 +1,19 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "crm backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiSavelyev1989/CRM.git"
+  },
+  "author": "Andrei Savelyeu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiSavelyev1989/CRM/issues"
+  },
+  "homepage": "https://github.com/AndreiSavelyev1989/CRM#readme"
+}
