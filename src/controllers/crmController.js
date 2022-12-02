@@ -31,3 +31,17 @@ export const getContactByID = (req, res) => {
     res.json(contact);
   });
 };
+
+export const updateContact = (req, res) => {
+  Contact.findOneAndUpdate(
+    { _id: req.params.contactID },
+    req.body,
+    { new: true, useFindAndModify: false },
+    (err, contact) => {
+      if (err) {
+        console.log(err);
+      }
+      res.json(contact);
+    }
+  );
+};
