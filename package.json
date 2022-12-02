@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/AndreiSavelyev1989/CRM/issues"
   },
-  "homepage": "https://github.com/AndreiSavelyev1989/CRM#readme"
+  "homepage": "https://github.com/AndreiSavelyev1989/CRM#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
